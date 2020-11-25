@@ -43,3 +43,15 @@ cd angular11-app
 npm install
 npm run serve:single-spa:angular11-app
 ```
+
+### Broken tsconfig.app.json
+
+[single-spa-angular#308](https://github.com/single-spa/single-spa-angular/issues/308)
+
+Serve results in "An unhandled exception occurred: tsconfig.app.json:2:3 - error TS1327: String
+literal with double quotes expected." error.
+
+Cannot reproduce on this branch since `npm install` is broken by another error.
+
+Update:
+1. Manual fix of `tsconfig.app.json`
