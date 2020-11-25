@@ -12,7 +12,12 @@ Code to reproduce [single-spa](https://github.com/single-spa) project and sub-pr
 
 Features that were merged into this branch to build the error scenario.
 
-* `{directory}` directory with {feature name}
+* `angular10-basic` directory with Angular 10 application
+  * Port 11200
+  * Not strict
+  * No routing
+  * CSS styles
+  * No animations
 
 
 ## Errors
