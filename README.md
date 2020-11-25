@@ -12,7 +12,14 @@ Code to reproduce [single-spa](https://github.com/single-spa) project and sub-pr
 
 Features that were merged into this branch to build the error scenario.
 
-* `{directory}` directory with {feature name}
+* `root-config-angular` directory with basic single-spa root config
+  * Port 9001
+  * "angularOrg" organization
+  * No TypeScript
+  * No layout engine
+  * No husky
+  * No pretty-quick
+  * Root Zone
 
 
 ## Errors
