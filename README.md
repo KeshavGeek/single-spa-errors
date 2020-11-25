@@ -32,3 +32,6 @@ Serve results in "An unhandled exception occurred: tsconfig.app.json:2:3 - error
 literal with double quotes expected." error.
 
 Cannot reproduce on this branch since `npm install` is broken by another error.
+
+Update:
+1. Manual fix of `tsconfig.app.json`
