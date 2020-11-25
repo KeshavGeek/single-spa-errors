@@ -8,8 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:single-spa:angular11-app": "ng build angular11-app --prod --deploy-url http://localhost:4200/",
-    "serve:single-spa:angular11-app": "ng s --project angular11-app --disable-host-check --port 4200 --deploy-url http://localhost:4200/ --live-reload false"
+    "build:single-spa:angular11-app": "ng build angular11-app --prod --deploy-url http://localhost:4211/",
+    "serve:single-spa:angular11-app": "ng s --project angular11-app --disable-host-check --port 4211 --deploy-url http://localhost:4211/ --live-reload false"
   },
   "private": true,
   "dependencies": {
