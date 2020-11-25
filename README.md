@@ -32,7 +32,14 @@ Executing npm install just after creating the Angular 11 parcel produces the err
 "No matching version found for @angular-builders/custom-webpack@^11".
 This is using single-spa-angular@4.8.0, after the fix from #304 .
 
+Updates:
+1. npm install @angular-builders/custom-webpack@latest (10.0.1);
+2. npm install
+
+Quotes error on serve.
+
 ```bash
 cd angular11-app
 npm install
+npm run serve:single-spa:angular11-app
 ```
