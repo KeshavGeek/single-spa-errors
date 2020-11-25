@@ -8,8 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:single-spa:angular10-basic": "ng build angular10-basic --prod --deploy-url http://localhost:4200/",
-    "serve:single-spa:angular10-basic": "ng s --project angular10-basic --disable-host-check --port 4200 --deploy-url http://localhost:4200/ --live-reload false"
+    "build:single-spa:angular10-basic": "ng build angular10-basic --prod --deploy-url http://localhost:10200/",
+    "serve:single-spa:angular10-basic": "ng s --project angular10-basic --disable-host-check --port 10200 --deploy-url http://localhost:10200/ --live-reload false"
   },
   "private": true,
   "dependencies": {
