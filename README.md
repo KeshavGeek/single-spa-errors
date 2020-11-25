@@ -24,12 +24,11 @@ Features that were merged into this branch to build the error scenario.
 Errors that can be reproduced in this branch. Usually just the one you were looking for when
 following a link from an issue.
 
-### {Error title}
+### Broken tsconfig.app.json
 
-[{subproject}#{issue number}](https://github.com/single-spa/{subproject}/issues/{issue number})
+[single-spa-angular#308](https://github.com/single-spa/single-spa-angular/issues/308)
 
-{description}
+Serve results in "An unhandled exception occurred: tsconfig.app.json:2:3 - error TS1327: String
+literal with double quotes expected." error.
 
-```bash
-{STEPS}
-```
+Cannot reproduce on this branch since `npm install` is broken by another error.
