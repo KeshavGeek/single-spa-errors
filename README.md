@@ -24,12 +24,15 @@ Features that were merged into this branch to build the error scenario.
 Errors that can be reproduced in this branch. Usually just the one you were looking for when
 following a link from an issue.
 
-### {Error title}
+## custom-webpack@^11 not found
 
-[{subproject}#{issue number}](https://github.com/single-spa/{subproject}/issues/{issue number})
+[single-spa-angular#306](https://github.com/single-spa/single-spa-angular/issues/306)
 
-{description}
+Executing npm install just after creating the Angular 11 parcel produces the error
+"No matching version found for @angular-builders/custom-webpack@^11".
+This is using single-spa-angular@4.8.0, after the fix from #304 .
 
 ```bash
-{STEPS}
+cd angular11-app
+npm install
 ```
