@@ -12,7 +12,11 @@ Code to reproduce [single-spa](https://github.com/single-spa) project and sub-pr
 
 Features that were merged into this branch to build the error scenario.
 
-* `{directory}` directory with {feature name}
+* `angular11-app` directory with Angular 11 application
+  * Not strict
+  * No routing
+  * CSS
+  * No animations
 
 
 ## Errors
