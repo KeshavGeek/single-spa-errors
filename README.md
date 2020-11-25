@@ -36,7 +36,7 @@ Updates:
 1. npm install @angular-builders/custom-webpack@latest (10.0.1);
 2. npm install
 
-Quotes error on serve.
+Error "webpackMerge.smart is not a function" on serve.
 
 ```bash
 cd angular11-app
