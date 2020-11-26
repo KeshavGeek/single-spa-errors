@@ -9,11 +9,11 @@ registerApplication({
   activeWhen: [location => location.pathname === "/"],
 });
 
-// registerApplication({
-//   name: "@basicOrg/navbar",
-//   app: () => System.import("@basicOrg/navbar"),
-//   activeWhen: ["/navbar"]
-// });
+registerApplication({
+  name: "angular10-routing",
+  app: () => System.import("angular10-routing"),
+  activeWhen: ["/angular10-routing"]
+});
 
 start({
   urlRerouteOnly: true,
