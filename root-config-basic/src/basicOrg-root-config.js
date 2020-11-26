@@ -6,13 +6,13 @@ registerApplication({
     System.import(
       "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js"
     ),
-  activeWhen: ["/"],
+  activeWhen: [location => location.pathname === "/"],
 });
 
 // registerApplication({
 //   name: "@basicOrg/navbar",
 //   app: () => System.import("@basicOrg/navbar"),
-//   activeWhen: ["/"]
+//   activeWhen: ["/navbar"]
 // });
 
 start({
