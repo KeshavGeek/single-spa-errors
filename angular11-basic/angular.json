@@ -30,7 +30,7 @@
             "customWebpackConfig": {
               "path": "extra-webpack.config.js",
               "libraryName": "angular11-basic",
-              "libraryTarget": "umd"
+              "libraryTarget": "system"
             }
           },
           "configurations": {
