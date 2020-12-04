@@ -8,7 +8,11 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:single-spa:angular11-basic": "ng build angular11-basic --prod --deploy-url http://localhost:11200/",
+    "build:dev": "ng build angular11-basic --deploy-url http://localhost:11200/",
+    "build:prod": "ng build --prod angular11-basic --deploy-url http://localhost:11200/",
+    "serve:dev": "ng s --project angular11-basic --disable-host-check --port 11200 --deploy-url http://localhost:11200/ --live-reload false",
+    "serve:prod": "ng s --prod --project angular11-basic --disable-host-check --port 11200 --deploy-url http://localhost:11200/ --live-reload false",
+    "build:single-spa:angular11-basic": "ng build --prod angular11-basic --deploy-url http://localhost:11200/",
     "serve:single-spa:angular11-basic": "ng s --project angular11-basic --disable-host-check --port 11200 --deploy-url http://localhost:11200/ --live-reload false"
   },
   "private": true,
