@@ -1,5 +1,7 @@
 # single-spa-errors
 
+> :warning: **Moved** to https://github.com/daniloesk/single-spa-examples
+
 Code to reproduce [single-spa](https://github.com/single-spa) project and sub-projects errors.
 Errors can also result in fix or workaround examples.
 Also hosts working examples for solutions to common requirements.
